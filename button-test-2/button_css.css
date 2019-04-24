@@ -32,15 +32,15 @@ body {
 
 .image-button:hover {
   opacity: 0.85;
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 120px;
   margin-left: 10px;
   margin-right: 10px;
-  margin-top: 10px;
+  margin-top: 5px;
 
 }
 
 .image-button:active {
   background-color: white;
-  border: 10px outset white;
+  border: 10px outset red;
 }
