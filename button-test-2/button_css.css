@@ -11,20 +11,24 @@
   font-variant: small-caps;
   box-shadow: rgb(0, 0, 0) 6px 5px 15px 5px; border: 10px outset rgb(28, 110, 164);
   margin-right: 20px;
-  text-align: center;
 }
 
 .image-button {
   height: 100px;
   width: 100px;
   border-radius: 50%;
-  display: inline-block;
   border: 10px outset rgb(28, 110, 164);
   box-shadow: rgb(0, 0, 0) 6px 5px 15px 5px;
+  -webkit-transition: width 2s; /* Safari */
+  transition: width 2s;
 }
 
 .image-button:hover {
-  opacity: 0.7;
+  opacity: 0.85;
+  transform:scale(1.5);
+  margin-left: 30px;
+  margin-right: 30px;
+
 }
 
 .image-button:active {
