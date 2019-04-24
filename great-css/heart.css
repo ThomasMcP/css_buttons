@@ -1,3 +1,13 @@
+.circle-wrapper {
+  background-color: black;
+  width: 120px;
+  height: 120px;
+  border: 10px solid gray;
+}
+.circle-wrapper:hover {
+  opacity: 0.1;
+}
+
 .circle-around-heart {
   position: absolute;
   margin-top: 5px;
