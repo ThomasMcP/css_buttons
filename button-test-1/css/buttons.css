@@ -1,0 +1,89 @@
+.button {
+  border: 10px outset grey;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.3s;
+  margin: auto;
+  border-radius: 50%;
+  text-overflow: ellipsis;
+}
+
+#first {
+  z-index: 0;
+  background-color: red;
+  position: absolute;
+
+}
+
+#first:hover, #second:hover, #third:hover {
+  z-index: 3;
+  margin-top: 10px;
+  background-color: white;
+}
+
+#second {
+  background-color: blue;
+  position: absolute;
+  left: 40px;
+  top: 70px;
+  z-index: 1;
+}
+
+
+
+#third {
+  background-color: yellow;
+  position: absolute;
+  top: 130px;
+  left: 75px;
+  z-index: 2;
+}
+
+h3 {
+  position: relative;
+  left: 50px;
+  font-family: monospace;
+}
+
+/* BUTTON GROUP 2 */
+
+.button-wrap-2 {
+  text-align: right;
+  position: absolute;
+  left: 150px;
+}
+
+.button-group-2 {
+  width: 100px;
+  border-radius: 10%;
+  border-style: inset;
+}
+
+#first-2 {
+  z-index: 0;
+  background-color: red;
+  position: absolute;
+
+}
+
+#first-2:hover, #second-2:hover, #third-2:hover {
+  z-index: 3;
+  background-color: white;
+}
+
+#second-2 {
+  background-color: blue;
+  position: absolute;
+  left: 40px;
+  top: 50px;
+  z-index: 1;
+}
+
+
+
+#third-2 {
+  background-color: yellow;
+  position: absolute;
+  top: 90px;
+  left: 75px;
+  z-index: 2;
+}

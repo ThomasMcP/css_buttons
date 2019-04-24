@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="./button_css.css">
+</head>
+<body>
+    <div class="image-button-wrapper">
+      <img id="img" class="image-button" src="./images/CuteBOris copy.jpg" alt="cute dog" onclick="ani()">
+      <img id="img" class="image-button" src="https://loremflickr.com/320/240/dog" alt="cute animal">
+      <img id="img" class="image-button" src="https://loremflickr.com/320/240/cat" alt="cute animal">
+      <img id="img" src="./images/CuteBOris copy.jpg" width="328" height="328" onclick="ani()" />
+    </div>
+</body>
+</html>
+<script type="text/javascript">
+  function ani(){
+    document.getElementById('img').className ='classname';
+  }
+</script>
+<style type="text/css">
+.classname {
+  width: 328px;
+  height: 328px;
+  -webkit-animation-name: cssAnimation;
+  -webkit-animation-duration:3s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease;
+}
+@-webkit-keyframes cssAnimation {
+  from {
+    -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(20px);
+  }
+  to {
+    -webkit-transform: rotate(360deg) scale(1) skew(0deg) translate(20px);
+  }
+}
+</style>

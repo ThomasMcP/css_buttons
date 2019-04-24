@@ -1,0 +1,33 @@
+.myButton {
+  width: 100px;
+  height: 100px;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  line-height: 15px;
+  border-radius: 50%;
+  font-family: Georgia, serif;
+  font-weight: normal;
+  font-style: normal;
+  font-variant: small-caps;
+  box-shadow: rgb(0, 0, 0) 6px 5px 15px 5px; border: 10px outset rgb(28, 110, 164);
+  margin-right: 20px;
+  text-align: center;
+}
+
+.image-button {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: inline-block;
+  border: 10px outset rgb(28, 110, 164);
+  box-shadow: rgb(0, 0, 0) 6px 5px 15px 5px;
+}
+
+.image-button:hover {
+  opacity: 0.7;
+}
+
+.image-button:active {
+  background-color: white;
+  border: 10px outset white;
+}
