@@ -30,7 +30,7 @@
   height: 50px;
   top: 0px;
   left: 25px;
-  
+  border-right: 3px solid gray;
 }
 .heart::before {
   content: "";
@@ -41,4 +41,5 @@
   height: 50px;
   top: -25px;
   left: 0px;
+  border-top: 4px solid gray;
 }
